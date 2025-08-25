@@ -43,7 +43,7 @@ This isn't just another Tic-Tac-Toe implementation. It's a modern, beautifully d
 
 ### Game Setup
 *Screenshot 2: A screenshot of the configuration screen*
-![Game Setup](screenshots/game-setup.png)
+![Game Setup](Screenshots/game-setup.png)
 
 ### Gameplay Interface
 *Screenshot 3: A screenshot during active gameplay*
