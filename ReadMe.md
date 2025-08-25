@@ -47,7 +47,7 @@ This isn't just another Tic-Tac-Toe implementation. It's a modern, beautifully d
 
 ### Gameplay Interface
 *Screenshot 3: A screenshot during active gameplay*
-![Gameplay](screenshots/gameplay.png)
+![Gameplay](Screenshots/gameplay.png)
 
 ### Victory Celebration
 *Screenshot 4: A screenshot of the winner celebration*
