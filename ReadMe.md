@@ -39,7 +39,7 @@ This isn't just another Tic-Tac-Toe implementation. It's a modern, beautifully d
 
 ### Start Screen
 *Screenshot 1: A screenshot of the initial welcome screen*
-![Start Screen](screenshots/start-screen.png)
+![Start Screen](Screenshots/start-screen.png)
 
 ### Game Setup
 *Screenshot 2: A screenshot of the configuration screen*
