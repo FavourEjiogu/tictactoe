@@ -51,7 +51,7 @@ This isn't just another Tic-Tac-Toe implementation. It's a modern, beautifully d
 
 ### Victory Celebration
 *Screenshot 4: A screenshot of the winner celebration*
-![Victory](screenshots/victory.png)
+![Victory](Screenshots/victory.png)
 
 ---
 
