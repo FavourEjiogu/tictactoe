@@ -17,7 +17,7 @@ This isn't just another Tic-Tac-Toe implementation. It's a modern, beautifully d
 ## 🎥 Demo Video
 
 **Watch the game in action!**  
-[![YouTube Demo](https://img.shields.io/badge/▶️%20Watch%20Demo-YouTube-red.svg)](https://youtube.com/your-demo-link)
+[![YouTube Demo](https://img.shields.io/badge/▶️%20Watch%20Demo-YouTube-red.svg)](https://youtu.be/3yE6gE9OLU4)
 
 *Click the button above to see the complete gameplay demonstration*
 
