@@ -22,7 +22,7 @@ public class XandO {
     private Timer animationTimer;
     private boolean gameInProgress = true;
 
-    // Modern color scheme
+    // Color scheme
     private final Color PRIMARY_DARK = new Color(26, 32, 44);      // Dark blue-gray
     private final Color PRIMARY_LIGHT = new Color(45, 55, 72);     // Medium blue-gray
     private final Color ACCENT_BLUE = new Color(66, 153, 225);     // Bright blue
@@ -106,7 +106,7 @@ public class XandO {
         mainPanel.setBackground(BACKGROUND);
         mainPanel.setBorder(BorderFactory.createEmptyBorder(40, 40, 40, 40));
 
-        // Header with modern styling
+        // Header with styling
         JPanel headerPanel = new JPanel(new GridBagLayout());
         headerPanel.setBackground(BACKGROUND);
         
@@ -152,7 +152,7 @@ public class XandO {
             cardPanel.add(featureLabel);
         }
 
-        // Modern start button
+        // Start button
         JButton startBtn = createModernButton("Start Game", ACCENT_BLUE);
         startBtn.setFont(new Font("Segoe UI", Font.BOLD, 18));
         startBtn.addActionListener(e -> {
@@ -380,7 +380,7 @@ public class XandO {
         topPanel.add(turnLabel);
         topPanel.add(scoreLabel);
 
-        // Game grid with modern buttons
+        // Game grid with buttons
         JPanel gridPanel = new JPanel(new GridLayout(3, 3, 8, 8));
         gridPanel.setBackground(BACKGROUND);
         gridPanel.setBorder(BorderFactory.createEmptyBorder(20, 40, 20, 40));
@@ -850,7 +850,7 @@ public class XandO {
                 "Congratulations " + winner + "!\nYou won this round!" :
                 winner + " wins!\nBetter luck next time!";
             
-            // Create animated celebration dialog
+            // Animated celebration dialog
             JDialog celebrationDialog = new JDialog(gameFrame, "Round Result", true);
             celebrationDialog.setLayout(new BorderLayout());
             celebrationDialog.getContentPane().setBackground(isPlayerWin ? ACCENT_GREEN : ACCENT_BLUE);
@@ -861,7 +861,7 @@ public class XandO {
             celebrationLabel.setForeground(TEXT_WHITE);
             celebrationLabel.setBorder(BorderFactory.createEmptyBorder(30, 30, 30, 30));
             
-            // Add some celebration text instead of emojis
+            // Celebration text
             String celebration = isPlayerWin ? "VICTORY!" : "DEFEAT!";
             JLabel celebrationTextLabel = new JLabel(celebration, SwingConstants.CENTER);
             celebrationTextLabel.setFont(new Font("Segoe UI", Font.BOLD, 24));
@@ -907,7 +907,7 @@ public class XandO {
         
         Timer closeTimer = new Timer(1500, e -> {
             drawDialog.dispose();
-            // FIXED: Call checkSeriesWinner instead of resetBoardOnly
+            
             checkSeriesWinner();
         });
         closeTimer.setRepeats(false);
@@ -954,7 +954,7 @@ public class XandO {
     }
 
     private void showChampionCelebration(String champion, boolean isPlayerChampion, String finalScore) {
-        // Create championship dialog
+        // Championship dialog
         JDialog championDialog = new JDialog(gameFrame, "CHAMPION!", true);
         championDialog.setLayout(new BorderLayout());
         championDialog.getContentPane().setBackground(isPlayerChampion ? ACCENT_GREEN : ACCENT_RED);
